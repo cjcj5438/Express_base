@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>express 搭建服务以及文件上传</title>
+    <link rel="stylesheet" href="./css/demo.css">
+    <script src="./js/demo.js"></script>
+</head>
+<body>
+<img src="./img/weixin.png" alt="">
+选择一个文件上传: <br />
+<form action="/file_upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" size="50" />
+    <br />
+    <input type="submit" value="上传文件" />
+</form></body>
+</html>
