@@ -6,7 +6,8 @@ install:
   - npm i
 script:
   - npm run app04
-
+after_script:
+  - nginx -s reload
 cache:
   directories:
     - "node_modules"
