@@ -6,8 +6,7 @@ install:
   - npm i
 script:
   - npm run app04
-after_script:
-  - npminstall codecov && codecov
+
 cache:
   directories:
     - "node_modules"
