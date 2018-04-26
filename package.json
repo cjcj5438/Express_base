@@ -8,7 +8,7 @@
     "app01": "supervisor app01.js",
     "app02": "supervisor app02.js",
     "app03": "supervisor app03.js",
-    "app04": "supervisor app04.js"
+    "app04": "node app04.js"
   },
   "keywords": [],
   "author": "",
